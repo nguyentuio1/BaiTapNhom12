@@ -1,0 +1,17 @@
+{
+  "directed": false,
+  "weighted": false,
+  "nodes": [
+    {"name": "A", "x": 100, "y": 100},
+    {"name": "B", "x": 100, "y": 200},
+    {"name": "C", "x": 100, "y": 300},
+    {"name": "X", "x": 300, "y": 100},
+    {"name": "Y", "x": 300, "y": 250}
+  ],
+  "edges": [
+    {"u": "A", "v": "X", "weight": 1},
+    {"u": "A", "v": "Y", "weight": 1},
+    {"u": "B", "v": "X", "weight": 1},
+    {"u": "C", "v": "Y", "weight": 1}
+  ]
+}
